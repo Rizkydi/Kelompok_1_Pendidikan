@@ -91,7 +91,7 @@ ul li a {
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -260px;
+    margin-top: -650px;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 18px;
@@ -126,13 +126,172 @@ ul li a {
     margin-left: -280px;
 }
 
+/* card 1 */
 .card-home {
     background-color: #F5EFE6;
     width: 292px;
-    height: 370px;
+    height: 310px;
     border-radius: 20px;
-    
+    transition: 0.5s ease;
+    cursor: pointer;
 }
+
+.trangle {
+    background-color: #1CA5AE;
+    width: 292.6px;
+    height: 22px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -13px;
+}
+
+.card-home {
+    margin-left: -280px;
+}
+
+.card-home:hover,
+.trangle:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* card 2 */
+.card-home-2 img {
+    margin-top: -50px;
+}
+
+.card-home-2 {
+    background-color: #F5EFE6;
+    width: 292px;
+    height: 310px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.trangle-2 {
+    background-color: #1CA5AE;
+    width: 292.6px;
+    height: 22px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -13px;
+}
+
+.card-home-2 {
+    margin-left: 10px;
+}
+
+.card-home-2:hover,
+.trangle-2:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* card 3 */
+.card-home-3 img {
+    margin-bottom: 30px;
+}
+
+.card-home-3 {
+    background-color: #F5EFE6;
+    width: 292px;
+    height: 310px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.trangle-3 {
+    background-color: #1CA5AE;
+    width: 292.6px;
+    height: 22px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -13px;
+}
+
+.card-home-3 {
+    margin-left: 300px;
+    margin-top: -620px;
+}
+
+.card-home-3:hover,
+.trangle-3:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* card 4 */
+
+.card-home-4 img {
+    margin-bottom: 10px;
+}
+
+.card-home-4 {
+    background-color: #F5EFE6;
+    width: 292px;
+    height: 310px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.trangle-4 {
+    background-color: #1CA5AE;
+    width: 292.6px;
+    height: 22px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -13px;
+}
+
+.card-home-4 {
+    margin-left: 585px;
+}
+
+.card-home-4:hover,
+.trangle-4:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* card 5 */
+.card-home-5 {
+    background-color: #F5EFE6;
+    width: 292px;
+    height: 310px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.trangle-5 {
+    background-color: #1CA5AE;
+    width: 292.6px;
+    height: 22px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -13px;
+}
+
+.card-home-5 {
+    margin-left: 880px;
+    margin-top: -620px;
+}
+
+.card-home-5:hover,
+.trangle-5:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.visi-misi {
+    font-size: 35px;
+    margin-top: 400px;
+    margin-left: -300px;
+}
+
+.visi-misi p {
+    font-size: 25px;
+    margin-top: -40px;
+}
+
 
 /* Fading Animation */
 
