@@ -91,7 +91,7 @@ ul li a {
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -650px;
+    margin-top: -1120px;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 18px;
@@ -292,6 +292,74 @@ ul li a {
     margin-top: -40px;
 }
 
+.berita h2 {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.berita-penyuluhan {
+    cursor: pointer;
+    margin-left: -200px;
+    width: 559px;
+    height: 498.01px;
+    background-color: #F5EFE6;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.berita-penyuluhan img {
+    border-radius: 34px;
+    width: 561.8px;
+    height: 395px; 
+}
+
+.berita-penyuluhan p {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.berita-upacara {
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: -490px;
+    width: 559px;
+    height: 498.01px;
+    background-color: #F5EFE6;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.berita-upacara img {
+    border-radius: 34px;
+    width: 561.8px;
+    height: 395px; 
+}
+
+.berita-upacara p {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.berita-upacara:hover,
+.berita-penyuluhan:hover {
+    transition: 0.8s ease;
+    background-color: #7895B2;
+}
+
+.foot-head {
+    background-color: #7895B2;
+    width: 174.2%;
+    height: 399px;
+    margin-left: -365px;
+    margin-top: 190px;
+}
+
+.foot-head h1 {
+    font-size: 45px;
+}
 
 /* Fading Animation */
 
