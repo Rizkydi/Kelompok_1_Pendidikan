@@ -91,7 +91,7 @@ ul li a {
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -1120px;
+    margin-top: -1440px;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 18px;
@@ -357,8 +357,71 @@ ul li a {
     margin-top: 190px;
 }
 
-.foot-head h1 {
-    font-size: 45px;
+.foot-head h2 {
+    font-size: 60px;
+    margin-left: 580px;
+}
+
+.foot-head img {
+    margin-left: 500px;
+    margin-top: -1980px;
+    margin-bottom: 70px;
+    width: 80px;
+    height: 80px;
+}
+
+.social-links {
+    margin-top: -120px;    
+}
+
+.social-links a {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+    margin-left: 40px;
+    position: relative;
+}
+
+.social-links a ion-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+}
+
+.twitter {
+    color: #4692CA;
+}
+
+.youtube {
+    color: #CA4545;
+}
+
+.facebook {
+    color: #3D4BC5;
+}
+
+.whatsapp {
+    color: #33C74B;
+}
+
+.social-links a:hover {
+    color: #24262b;
+    background-color: #FFFFFF;
+}
+
+.social-links li {
+    list-style: none;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    padding-top: -120px;
 }
 
 /* Fading Animation */
