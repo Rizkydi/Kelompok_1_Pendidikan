@@ -1,0 +1,161 @@
+body {
+    background-image: url("Assets background.jpeg");
+    background-repeat: repeat;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background-1 {
+    background-color: #FFFFFF;
+    height: 3650px;
+    width: 1740px;
+    margin-left: 80px;
+    margin-top: 80px;
+    background-position: center;
+}
+
+.background-2 {
+    background-color: #F5EFE6;
+    position: absolute;
+    width: 1740px;
+    height: 426px;
+    left: 88px;
+    top: 60px;
+}
+
+.background-2 img {
+    width: 472px;
+    height: 470px;
+    left: 70px;
+    margin-top: -20px;
+}
+
+.background-2 h1 {
+    font-size: 60px;
+    margin-left: 600px;
+    margin-top: -360px;
+}
+
+.background-2 p{
+    font-size: 30px;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    font-size: 20px;
+    margin-top: -3240px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #210202;
+}
+
+.showSlider {
+    display: none
+    }
+
+.showSlider img {
+    width: 100%;
+    }
+
+.container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+
+.left, 
+.right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -260px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    background-color: black;
+    }
+
+.right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.left:hover, 
+.right:hover {
+    transition: 0.6 ease;
+    background-color: #77CC6D;
+}
+
+.content {
+    color: #eff5d4;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.Homeview {
+    font-size: 30px;
+    margin-top: 58px;
+    margin-left: -280px;
+}
+
+.card-home {
+    background-color: #F5EFE6;
+    width: 292px;
+    height: 370px;
+    border-radius: 20px;
+    
+}
+
+/* Fading Animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+@-webkit-keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+@keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}

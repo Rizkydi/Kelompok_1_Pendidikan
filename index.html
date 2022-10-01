@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts sawarabi mincho-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Pesantren Al-Hikmah</title>
+</head>
+<body>
+
+    <!-- untuk menu header -->
+    <div class="header">
+        <div class="background-1">
+            <div class="background-2">
+                <img src="C:\Users\Raka Pratama\.vscode\Kelompok 1 Pendidikan\Assets Logo.png" alt="">
+                <h1>Pesantren Al-Hikmah</h1>
+                <p>Mendidik Santri Menjadi Berakhlak Mulia</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- untuk menu navbar-->
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Program</a></li>
+            <li><a href="">Berita</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Social Media</a></li>
+        </ul>
+    </nav>
+
+    <!-- untuk slide image -->
+    <div class="container">
+        <div class="showSlider fade">
+            <img src="C:\Users\Raka Pratama\.vscode\Kelompok 1 Pendidikan\Assets slide.jpeg" alt="">
+        <div class="content"></div>
+        </div>
+        <div class="showSlider fade">
+            <img src="C:\Users\Raka Pratama\.vscode\Kelompok 1 Pendidikan\Assets slide-2.jpg" alt="">
+        <div class="content"></div>
+        </div>
+        <div class="showSlider fade">
+            <img src="C:\Users\Raka Pratama\.vscode\Kelompok 1 Pendidikan\Assets slide-3.jpeg" alt="">
+        <div class="content"></div>
+    </div>
+
+        <!-- Navigation arrows -->
+        <a class="left" onclick="nextSlide(-1)">❮</a>
+        <a class="right" onclick="nextSlide(1)">❯</a>
+
+        <script>
+            var slide_index = 1;
+                slidesDisplay(slide_index);
+            function nextSlide(n) {
+                slidesDisplay(slide_index += n);
+            }
+            function currentSlide(n) {
+                slidesDisplay(slide_index = n);
+            }
+            function slidesDisplay(n) {
+
+            var i;
+            var slides = document.getElementsByClassName("showSlider");
+            if (n > slides.length) { slide_index = 1 }
+            if (n < 1) { slide_index = slides.length }
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            }
+            slides[slide_index - 1].style.display = "block";
+            }
+        </script>
+
+        <!-- untuk card home -->
+        <div class="Homeview">
+            <h1>Home</h1>
+        </div>
+        <div class="card-home">
+            <img src="C:\Users\Raka Pratama\.vscode\Kelompok 1 Pendidikan\Assets-card.png" alt="">
+        </div>
+</body>
+</html>
