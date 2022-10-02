@@ -4,9 +4,9 @@ body {
     font-family: 'Sawarabi Mincho', serif;
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 .background-1 {
     background-color: #FFFFFF;
@@ -313,7 +313,6 @@ ul li a {
     width: 561.8px;
     height: 395px; 
 }
-
 .berita-penyuluhan p {
     font-size: 40px;
     margin-top: 10px;
@@ -327,7 +326,7 @@ ul li a {
     width: 559px;
     height: 498.01px;
     background-color: #F5EFE6;
-    border-radius: 30px;
+    border-radius: 35px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -417,11 +416,28 @@ ul li a {
     background-color: #FFFFFF;
 }
 
-.social-links li {
+.list-text-social li {
     list-style: none;
     margin-left: 100px;
-    margin-bottom: 25px;
-    padding-top: -120px;
+}
+
+footer {
+    margin-top: -1px;
+}
+
+.materi-footer {
+    margin-left: 500px;
+    margin-top: -250px;
+}
+
+.materi-footer p {
+    font-size: 14px;
+    margin-top: -25px;
+}
+
+.materi-footer h3 {
+    font-size: 30px;
+    margin-left: 280px;
 }
 
 /* Fading Animation */
