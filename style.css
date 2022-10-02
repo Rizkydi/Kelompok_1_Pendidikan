@@ -4,9 +4,9 @@ body {
     font-family: 'Sawarabi Mincho', serif;
 }
 
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 .background-1 {
     background-color: #FFFFFF;
@@ -21,7 +21,7 @@ body {
     background-color: #F5EFE6;
     position: absolute;
     width: 1740px;
-    height: 426px;
+    height: 430px;
     left: 88px;
     top: 60px;
 }
@@ -53,23 +53,30 @@ nav {
     margin-top: -3240px;
 }
 
+.background-nav {
+    background-color: #D8D8D8;
+    width: 92.2%;
+    height: 80px;
+    margin-left: 80px;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
 ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 85%;
 }
 
 ul li {
     list-style: none;
-
 }
 
 ul li a {
     text-decoration: none;
     color: #210202;
 }
-
 .showSlider {
     display: none
     }
@@ -305,7 +312,6 @@ ul li a {
     height: 498.01px;
     background-color: #F5EFE6;
     border-radius: 30px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .berita-penyuluhan img {
@@ -327,7 +333,6 @@ ul li a {
     height: 498.01px;
     background-color: #F5EFE6;
     border-radius: 35px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .berita-upacara img {
@@ -342,10 +347,15 @@ ul li a {
     margin-left: 70px;
 }
 
+.berita-upacara,
+.berita-penyuluhan {
+    transition: 0.5s ease-in-out;
+}
+
 .berita-upacara:hover,
 .berita-penyuluhan:hover {
-    transition: 0.8s ease;
-    background-color: #7895B2;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(20px);
 }
 
 .foot-head {
